@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../assignment-03/style.css">
+	<script src="../assignment-03/app.js" defer></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Movie Recommendation App</h1>
+		<label for="genre">Select Genre:</label>
+		<select id="genre">
+			<option value="action">Action</option>
+			<option value="comedy">Comedy</option>
+			<option value="drama">Drama</option>
+			<option value="horror">Horror</option>
+			<option value="romance">Romance</option>
+			<option value="sci-fi">Sci-Fi</option>
+		</select>
+		<br><br>
+		<label for="year">Select Year:</label>
+		<select id="year">
+			<option value="2022">2022</option>
+			<option value="2021">2021</option>
+			<option value="2020">2020</option>
+			<option value="2019">2019</option>
+			<option value="2018">2018</option>
+			<option value="2017">2017</option>
+		</select>
+		<br><br>
+		<button id="recommend-btn">Get Recommendations</button>
+		<br><br>
+		<div id="movie-list"></div>
+	</div>
+
+</body>
+</html>
